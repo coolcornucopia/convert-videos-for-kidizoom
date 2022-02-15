@@ -6,8 +6,7 @@ The goal of this page is to explain how to convert any videos to your kid's camc
 
 Note: the above video example is the famous [Big Buck Bunny](https://studio.blender.org/films/big-buck-bunny/?asset=263) from [Blender Studio](https://studio.blender.org) under the license [CC-BY](https://creativecommons.org/licenses/by/4.0/), converted to fit the size of the animated gif, more details [below](#extra).
 
-**Table of contents**
-
+# Table of contents
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
@@ -15,7 +14,7 @@ Note: the above video example is the famous [Big Buck Bunny](https://studio.blen
 - [Get the KidiZoom&reg; audio & video codec parameters](#get-the-kidizoomreg-audio-video-codec-parameters)
 - [Convert videos to KidiZoom&reg; avi video files](#convert-videos-to-kidizoomreg-avi-video-files)
 - [Convert audios to KidiZoom&reg; wav audio files](#convert-audios-to-kidizoomreg-wav-audio-files)
-- [Extra: use ffmpeg for creating the animated gif](#a-nameextraaextra-use-ffmpeg-for-creating-the-animated-gif)
+- [Extra: Use ffmpeg for creating the animated gif](#extra-use-ffmpeg-for-creating-the-animated-gif)
 - [Any questions or comments are welcome :bird:](#any-questions-or-comments-are-welcome-bird)
 
 <!-- /code_chunk_output -->
@@ -71,8 +70,8 @@ export extra="-map_metadata -1 -fflags +bitexact -y"
 ffmpeg -i ${input_filename} ${audio} ${extra} ${output_filename}
 ```
 
-## <a name="extra"></a>Extra: use ffmpeg for creating the animated gif
-The animated gif example has been created with the following commands:
+## Extra: Use ffmpeg for creating the animated gif
+<a name="extra"></a>The animated gif example has been created with the following commands:
 ``` bash
 wget https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Big_Buck_Bunny_4K.webm/Big_Buck_Bunny_4K.webm.480p.webm
 
