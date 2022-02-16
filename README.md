@@ -6,7 +6,7 @@ The goal of this page is to explain how to convert any videos to your kid's camc
 
 Note: the above video example is the famous [Big Buck Bunny](https://studio.blender.org/films/big-buck-bunny/?asset=263) from [Blender Studio](https://studio.blender.org) under the license [CC-BY](https://creativecommons.org/licenses/by/4.0/), converted to fit the size of the animated gif, more details [below](#extra).
 
-# Table of contents
+## Table of contents {ignore=true}
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
@@ -94,5 +94,7 @@ ffmpeg -t 20 -loop 1 -i ${background_image_filename} -i tmp.gif -filter_complex 
 If you have any comments or questions, feel free to send me an email at coolcornucopia@outlook.com :email:.
 
 --
+
 Peace
+
 coolcornucopia :smile:
